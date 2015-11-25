@@ -39,9 +39,9 @@ Each cdnjs library has a `package.json` file. This file contains required and so
   "npmName": "lodash",
   "npmFileMap": [
     {
-      "basePath": "/dist/",
+      "basePath": "dist",
       "files": [
-        "*.js"
+        "**/*"
       ]
     }
   ],
